@@ -1,7 +1,13 @@
 body {
     margin: 60px auto;
     width: 70%;
-}
+    background: #ededed; /* Old browsers */
+    background: -moz-linear-gradient(left, #ededed 0%, #a5bed3 62%, #76a4c9 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ededed 0%,#a5bed3 62%,#76a4c9 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ededed 0%,#a5bed3 62%,#76a4c9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#76a4c9',GradientType=1 );
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -14,7 +20,7 @@ nav ul li, footer ul li {
 }
 a {
     text-decoration: none;
-    color: #999;
+    color: #525251;
 }
 a:hover {
     text-decoration: underline;
@@ -29,7 +35,10 @@ p {
     color: #333;
 }
 footer {
-    border-top: 1px solid #d5d5d5;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     font-size: .8em;
 }
 
@@ -43,3 +52,9 @@ ul.posts li {
 }
 
 .joelface1 {max-height: 120px;}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
