@@ -1,101 +1,29 @@
 body {
-    margin: 60px auto;
-    width: 85%;
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#76a4c9',GradientType=1 );
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    background-color: lightgrey;
-    }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-a {
-    text-decoration: none;
-    color: #525251;
-}
-a:hover {
-    text-decoration: underline;
-}
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-p {
-    font-size: 1.0em;
-    line-height: 1.0em;
-    color: #333;
-}
-footer {
-    border: 0;
-    height: 0;
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-    font-size: .8em;
+  background-image: url(http://img1.sc115.com/uploads/sc/jpg/183/img-1853-vficdzumo0t.jpg);
+  background-size: 100%;
 }
 
-
-
-ul.posts {
-    margin: 20px auto 40px;
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
-}
-
-.top_logo {
-          font-size: 4em;
-          font-family:'Helvetica', 'Arial', 'Sans-Serif';
-          margin-top: 5px;
-          margin-bottom: 5px;
-          color:  #212f3d;
-          text-align-last: center;
-}
-
-.joelface1 {
-          max-height: 50px;
-          border-style: solid;
-          border-width: thin;
-          border-color:  #212f3d;
-}
-
-hr {
-  border: 0;
-  height: 0;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-}
-.subtitle {
-          margin-left: 130px;
-}
-
-.link {
-      float: right;
-}
-
-.banner_links {
-              padding-bottom: 0px;
-              background-color: white;
+.joel_guitar {
+  width: 100%;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: white;
+  border-width: thick;
 }
 
 .blurb {
-      font-size: 0.9em;
-      margin-left: 40%;
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
 }
 
-.joel_guitar{
-  max-width: 35%;
-  border-style: solid;
-  border-width: thin;
-  float:left;
-  margin-left: 5px;
+.center {
+  text-align: center;
+}
+
+.navbar-brand {
+  letter-spacing: -3px;
+  font-size: 40px;
+  font-family:sans-serif;
 }
